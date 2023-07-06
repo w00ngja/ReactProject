@@ -70,7 +70,7 @@
   box-sizing: border-box;
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   gap: 12px;
@@ -85,7 +85,7 @@
   border-radius: 0px 0px 16px 16px;
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 
   box-sizing: border-box;
@@ -96,7 +96,7 @@
   height: 100%;
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -109,8 +109,8 @@
   transition: font-size 1s ease;
 
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   cursor: pointer;
 }
