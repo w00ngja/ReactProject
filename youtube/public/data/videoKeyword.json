@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "n9gAuoAAyhR718s2mu_y0ucxmXQ",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 385422,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RcfU9A5ADE_mGyqIN-Fg1P1CiyY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hnanNlDbsE4"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-04T10:00:13Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 삼국지 완전판",
+        "description": "침착맨 삼국지: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침착맨 삼국지 인물전: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hnanNlDbsE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hnanNlDbsE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hnanNlDbsE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-04T10:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-kSq1iOTWzJJDNXbUkOjo9BBmWg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4k48gvdAsFY"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-29T10:00:01Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "전혀 몰라도 입문할 수 있는 침착맨 삼국지 1부",
+        "description": "【침착맨 삼국지】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침투부 영상에 자막 달기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-29T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KPw_EEt7GT0kz8WQeKXIkAFdrxU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QIIZpxDZjsk"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-05T10:00:14Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "전혀 몰라도 입문할 수 있는 침착맨 삼국지 2부",
+        "description": "【침착맨 삼국지】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침투부 영상에 자막 달기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QIIZpxDZjsk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QIIZpxDZjsk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QIIZpxDZjsk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-05T10:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pKN5W5cwLy3w4JAA2XxCR0hAcKo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1fcn-PiXIKA"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-12T12:06:43Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "전혀 몰라도 입문할 수 있는 침착맨 삼국지 3부",
+        "description": "【침착맨 삼국지】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침투부 영상에 자막 달기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1fcn-PiXIKA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1fcn-PiXIKA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1fcn-PiXIKA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-12T12:06:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fRD3H1v-JsP_j5QJR78qtM96HXY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gYUbH22bMjE"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-11T10:15:31Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "전혀 몰라도 입문할 수 있는 침착맨 삼국지 5부(完)",
+        "description": "【침착맨 삼국지】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침투부 영상에 자막 달기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gYUbH22bMjE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gYUbH22bMjE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gYUbH22bMjE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-11T10:15:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Z57Yr0jmhTllyEhFNz9Be-Lacew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "quwdMWnCE38"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-29T10:00:13Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 삼국지 동탁전",
+        "description": "【침착맨 삼국지 인물전】 재생목록: https://youtube.com/playlist?list=PLif_jr7pPZACIf_-P3h9zwIa_ygaCPMqO ▷【침착맨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/quwdMWnCE38/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/quwdMWnCE38/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/quwdMWnCE38/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-29T10:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vVbx1GM42lf7onF-iNibjZa_5l4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UXb2DyR_2R4"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-09T12:30:56Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 삼국지 원소전",
+        "description": "【침착맨 삼국지 인물전】 재생목록: https://youtube.com/playlist?list=PLif_jr7pPZACIf_-P3h9zwIa_ygaCPMqO ▷【침착맨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UXb2DyR_2R4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UXb2DyR_2R4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UXb2DyR_2R4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-09T12:30:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ty8vbF7pMpwAqBvNgU5-MUMM2cA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m5BJvrUz514"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-29T10:00:18Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 삼국지 여포전",
+        "description": "【침착맨 삼국지 인물전】 재생목록: https://youtube.com/playlist?list=PLif_jr7pPZACIf_-P3h9zwIa_ygaCPMqO ▷【침착맨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m5BJvrUz514/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m5BJvrUz514/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m5BJvrUz514/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-29T10:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fTsmYCenCPzJ3gvgHCdAGNoEWl4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YbTRK3NM-Lg"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-15T10:00:22Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "가장 호감인 삼국지 장수는?",
+        "description": "관련 영상 •침착맨 삼국지 완전판: https://youtu.be/hnanNlDbsE4 ▷관련 재생목록 •침착맨의 일상재롱: https://goo.gl/OJ4Uoa ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YbTRK3NM-Lg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YbTRK3NM-Lg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YbTRK3NM-Lg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-15T10:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DpjnUEXqo6WSL51xORtNnCXfiuQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "apV907sPIZo"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-25T11:30:15Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "전혀 몰라도 입문할 수 있는 침착맨 삼국지 4부",
+        "description": "【침착맨 삼국지】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷침투부 영상에 자막 달기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/apV907sPIZo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/apV907sPIZo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/apV907sPIZo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-25T11:30:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Df_JKtlLM5K-DpmOmf1PFV4xImA",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-05T11:13:36Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 삼국지",
+        "description": "삼국지 관심 없는데 알고 싶은 이중적인 호기심.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4k48gvdAsFY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-05T11:13:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Eh1mZVTFYsU__d9-idWXwtKQCVs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HNmeY8J22_M"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-23T10:00:06Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "삼국지 if 월드컵",
+        "description": "침착맨의 【이상형 월드컵】 재생목록: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HNmeY8J22_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HNmeY8J22_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HNmeY8J22_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-23T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uSUtzVl0khjHYZINZutiQqbMJvU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mQ7TjtKL36k"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-04T10:05:01Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "가슴이 웅장해지는 삼국지 명장면 월드컵",
+        "description": "침착맨의 【이상형 월드컵】 모음: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mQ7TjtKL36k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mQ7TjtKL36k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mQ7TjtKL36k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-04T10:05:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C9-WP7y3VUmUlGobx1rSLadFYPc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tYHgOCT68VE"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-18T10:00:21Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "침착맨 판타지 삼국지",
+        "description": "【침착맨 삼국지】 재생목록: https://www.youtube.com/playlist?list=PLif_jr7pPZADzkIUTkp1MpzrjA_FvLy_9 ▷【침착맨 삼국지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tYHgOCT68VE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tYHgOCT68VE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tYHgOCT68VE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-18T10:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0uJuBuTcPcgqWIvIeQgP6wOzQ2U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cf1Bhej6Gfg"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-16T11:52:55Z",
+        "channelId": "UCMc4EmuDxnHPc6pgGW-QWvQ",
+        "title": "[원본풀버전 특별공개] 침착맨, 삼국지, 과학!",
+        "description": "안될과학을 애청해주시는 많은 교수님들께서 라이브 풀버전을 공개하는 것을 원해주십니다. 안될과학 측에도 풀버전을 업로드 하는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cf1Bhej6Gfg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cf1Bhej6Gfg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cf1Bhej6Gfg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "안될과학 Unrealscience",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-16T11:52:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IdRQS8bhecaNvroBahX6Hz_kSiQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i_ALN5-Z_60"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-12T11:09:20Z",
+        "channelId": "UCJ-2BDQi99lsByDYcxyhz5A",
+        "title": "침국지 1화 (침착맨 더빙)",
+        "description": "침착맨님께 진심으로 죄송합니다. 원래 목소리는 https://youtube.com/user/zilioner83 침착맨 유튜브에서 감상하세요!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i_ALN5-Z_60/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i_ALN5-Z_60/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i_ALN5-Z_60/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침썰시대",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-12T11:09:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pTyp10bdXQneXlW8O1OwMJprVuc",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLrTC7IMrpfqKJIKjmDb63sqOxGOlp71uJ"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-30T15:01:59Z",
+        "channelId": "UCC1LvVTX2ySKYjeIXkAtvsQ",
+        "title": "삼국지14: 적벽대전이 대충 망한 뒤 유비전",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨 플러스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-30T15:01:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QxSgglWl4ZZdwQalACqSOppdTR4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AbmY3UEX0ag"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-05T10:00:08Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "핫브레이크 핫도그와 삼국지 원신전",
+        "description": "관련 영상 •오이 핫도그: https://youtu.be/NaUaHNct5U4 ▷관련 재생목록 •침착맨의 식욕저하 다이어트 먹방: https://url.kr/a4vk8m ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AbmY3UEX0ag/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AbmY3UEX0ag/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AbmY3UEX0ag/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-05T10:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Lm5mPmN2YJ-YgxhWt-0SGtW08_o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hr32zccDeTE"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-16T03:24:07Z",
+        "channelId": "UCC1LvVTX2ySKYjeIXkAtvsQ",
+        "title": "삼국지 호감인물 티어메이커 - 풀버전",
+        "description": "관련 영상 •최고의 삼국지 장수는? 삼국지 월드컵 1부: https://youtu.be/DyEuU-rhpqM ▷관련 재생목록 •침착맨 일상과 토크 풀버전: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hr32zccDeTE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hr32zccDeTE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hr32zccDeTE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨 플러스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-16T03:24:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2-BGe0ztoDxdyYW_U0ZP09dYBac",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o--YC7IAdUM"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-03T08:00:06Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "추악한 촉나라의 이중성",
+        "description": "침착맨의 【영걸전 리메이크】 모음: https://www.youtube.com/playlist?list=PLif_jr7pPZADMnJXj_zadqIUMoTWyVYYD ▷침착맨의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o--YC7IAdUM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o--YC7IAdUM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o--YC7IAdUM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-03T08:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wRMjE0yBKbzTPxmOc_t2VMSSzu0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yBAJVIr_rM0"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-24T12:00:10Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "내 주변에서 만나기 싫은 극혐 삼국지 인물 월드컵",
+        "description": "침착맨의 【이상형 월드컵】 모음: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yBAJVIr_rM0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yBAJVIr_rM0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yBAJVIr_rM0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-24T12:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "psVUU5mg6V2PwtzBKGKb11QkRZU",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLif_jr7pPZAAMNm0Kut1nXevs91WT2jb2"
+      },
+      "snippet": {
+        "publishedAt": "2017-01-26T01:19:00Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "【침착맨】 삼국지5",
+        "description": "KOEI 삼국지 시리즈의 명작을 뽑을때마다 빠지지 않는 갓작 중의 킹작, 삼국지 5. 오늘은 후한의 군웅이 되어 천하를 도모한다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X1ef9gcYTL4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X1ef9gcYTL4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X1ef9gcYTL4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-01-26T01:19:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rqyUFOp7POFAGWMJIBQQDZb0zPc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VlobBX78_v0"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-30T12:00:23Z",
+        "channelId": "UCC1LvVTX2ySKYjeIXkAtvsQ",
+        "title": "삼국지14: 적벽대전이 대충 망한 뒤 유비전 1화",
+        "description": "침착맨의 【삼국지14: 적벽대전이 대충 망한 뒤 유비전】 재생목록: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VlobBX78_v0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨 플러스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-30T12:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YJlJcS6sBW4BK5VXKuu3XmJPkhw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SMQBnfrV07M"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-03T10:00:21Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "가장 묘사를 잘한 삼국지 일러스트 월드컵",
+        "description": "침착맨의 【이상형 월드컵】 모음: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SMQBnfrV07M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SMQBnfrV07M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SMQBnfrV07M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "침착맨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-03T10:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n2KhwKhT5FU9fPMVQBUubsEqV9Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W1bHBn9dwYA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-28T11:30:12Z",
+        "channelId": "UCMc4EmuDxnHPc6pgGW-QWvQ",
+        "title": "침착맨과 삼국지 속 무기의 과학! 1편 [안될과학 - 랩미팅]",
+        "description": "삼국지 속 무기의 과학을 파헤쳐보았습니다. 침착맨과 함께 삼국지의 과학 랩미팅 1편 과학을 모르면 모를수록 교수님과 랩장으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W1bHBn9dwYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W1bHBn9dwYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W1bHBn9dwYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "안될과학 Unrealscience",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-28T11:30:12Z"
+      }
+    }
+  ]
+}
