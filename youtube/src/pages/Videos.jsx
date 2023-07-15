@@ -13,7 +13,7 @@ export default function Videos() {
     data: videos,
     // 컴포넌트에서 비동기 통신관련 로직을 분리하였음 (Fake / Real)
   } = useQuery(["videos", keyword], () => {
-    // 클래스화하여 내부 메서드를 호출해주었음
+    // 클래스화하여 내부 메서드를 호출
     const youtube = new FakeSearch();
     return youtube.search(keyword);
   });
