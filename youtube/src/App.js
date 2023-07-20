@@ -1,22 +1,22 @@
-import "./App.css";
-import Root from "./pages/Root";
-import NotFound from "./pages/NotFound";
-import Videos from "./pages/Videos";
-import VideoDetail from "./pages/VideoDetail";
+import './App.css';
+import Root from './pages/Root';
+import NotFound from './pages/NotFound';
+import Videos from './pages/Videos';
+import VideoDetail from './pages/VideoDetail';
 
 // React-router-dom : 페이지 라우팅
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Videos /> },
-      { path: "/videos", element: <Videos /> },
-      { path: "/videos/:keyword", element: <Videos /> },
-      { path: "/videos/watch/:id", element: <VideoDetail /> },
+      { path: '/videos', element: <Videos /> },
+      { path: '/videos/:keyword', element: <Videos /> },
+      { path: '/videos/watch/:id', element: <VideoDetail /> },
     ],
   },
 ]);
