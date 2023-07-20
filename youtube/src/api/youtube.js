@@ -31,8 +31,7 @@ export default class Youtube {
     // return axios.get(`/videos/popular.json`).then((res) => res.data.items);
 
     return this.httpClient
-      .get('vidoes', { params: { part: 'snippet', maxResults: 25, charts: 'mostPopluar' } })
-      .then((res) => res.data.items)
-      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+      .get('videos', { params: { part: 'snippet', maxResults: 25, chart: 'mostPopular' } })
+      .then((res) => res.data.items);
   }
 }
