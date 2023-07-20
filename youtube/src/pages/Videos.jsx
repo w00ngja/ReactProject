@@ -1,14 +1,32 @@
 import React from 'react';
-import VideoSm from '../components/video-sm/VideoSm';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
+import VideoCard from '../components/VideoCard/VideoCard';
 
 export default function Videos() {
   const { keyword } = useParams();
+  const {
+    isLoading,
+    error,
+    data: videos,
+  } = useQuery(['videos', keyword], async () => {
+    return fetch(`/videos/${keyword ? 'search' : 'popular'}.json`)
+      .then((res) => res.json())
+      .then((data) => data.items);
+  });
 
   return (
     <div className="">
       <div>{keyword ? `'${keyword}' 검색 결과` : `최신 트렌드`}</div>
+      {isLoading && <p>Loading..</p>}
+      {error && <p>Something is Wrong!</p>}
+      {videos && (
+        <ul>
+          {videos.map((video) => (
+            <VideoCard key={video.id} video={video}></VideoCard>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
