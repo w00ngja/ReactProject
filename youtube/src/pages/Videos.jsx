@@ -16,7 +16,7 @@ export default function Videos() {
       {isLoading && <p>Loading..</p>}
       {error && <p>Something is Wrong!</p>}
       {videos && (
-        <ul>
+        <ul className="flex flex-wrap gap-2">
           {videos.map((video) => (
             <VideoCard key={video.id} video={video}></VideoCard>
           ))}
