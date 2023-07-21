@@ -22,7 +22,7 @@ export default function VideoDetail() {
           type="text/html"
           width="100%"
           height={640}
-          src={`http://www.youtube.com/embed/${id}`}
+          src={`https://www.youtube.com/embed/${id}`}
           frameborder="0"
         ></iframe>
         <div className="w-full flex flex-col flex-wrap p-8 pt-2">
