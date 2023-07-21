@@ -23,6 +23,10 @@ export default class YoutubeClient {
     return this.httpClient.get('videos', params);
   }
 
+  async channels(params) {
+    return this.httpClient.get('channels', params);
+  }
+
   // async #searchByKeyword(keyword) {
   //   // return axios
   //   //   .get(`/videos/search.json`)

@@ -11,6 +11,19 @@ export default class Youtube {
     this.apiClient = apiClient;
   }
 
+  async relatedVideos(id) {
+    return this.apiClient
+      .search({ params: { part: 'snippet', maxResults: 25, type: 'video', relatedToVideoId: id } })
+      .then((res) => res.data.items.map((item) => ({ ...item, id: item.id.videoId })));
+  }
+
+  async channelImageURL(id) {
+    return this.apiClient.channels({ params: { part: 'snippet', id } }).then((res) => {
+      console.log(res);
+      return res.data.items[0].snippet.thumbnails.default.url;
+    });
+  }
+
   async search(keyword) {
     // 호출한 API에서 비디오의 id 값을 불러오는 경로가 다르기 때문에 분리해주었음
     // 함수 앞에 #을 붙이게 되면 private하게 사용할 수 있음
@@ -32,8 +45,7 @@ export default class Youtube {
       this.apiClient
         // Promise를 이용해 통신하기 때문에, then을 통해 처리
         .search({ params: { part: 'snippet', maxResults: 25, type: 'video', q: keyword } })
-        .then((res) => res.data.items)
-        .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })))
+        .then((res) => res.data.items.map((item) => ({ ...item, id: item.id.videoId })))
     );
   }
 
