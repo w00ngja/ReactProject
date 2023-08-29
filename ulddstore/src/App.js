@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import AllProducts from './pages/AllProducts';
+import AddProducts from './pages/AddProducts';
+import ProductsDetail from './pages/ProductsDetail';
+import MyCart from './pages/MyCart';
+
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+// 페이지 라우팅 설정
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+    errorElement: <NotFound />,
+    children: [
+      { index: true, element: <AllProducts /> },
+      { path: '/products', element: <AllProducts /> },
+      { path: '/products/add', element: <AddProducts /> },
+      { path: '/products/:id', element: <ProductsDetail /> },
+      { path: '/cart', element: <MyCart /> },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
