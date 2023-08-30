@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import logo from '../../img/logo.jpg';
 import { Link } from 'react-router-dom';
 import { BiListUl, BiLogIn, BiCart, BiPencil, BiLogOut } from 'react-icons/bi';
-import { login, logout, onUserStateChange } from '../../api/firebase';
+import { useAuthContext } from '../context/AuthContext';
 
 export default function NavBar() {
-  // 로그인 시 유저정보 객체를 반환할 State, 기본값은 undefined
-  const [user, setUser] = useState();
-
-  useEffect(() => {
-    // 컴포넌트 최초 마운트 시 1회만 로그인 세션 확인
-    onUserStateChange(setUser);
-  }, []);
+  // 커스텀 훅을 통해 전역 상태 (유저정보, 로그인, 로그아웃 함수) 호출
+  const { user, login, logout } = useAuthContext();
 
   return (
     <nav className="w-full flex flex-col items-center justify-center">
@@ -44,12 +39,13 @@ export default function NavBar() {
           )}
 
           {/* 로그인 상태라면 (user State에 값이 들어있다면) 유저정보와 로그아웃버튼 */}
-          {!user ? (
+          {!user && (
             <div onClick={login} className="hover:text-black  flex items-center gap-1">
               <BiLogIn className="text-xl" />
               로그인
             </div>
-          ) : (
+          )}
+          {user && (
             <>
               <p className="pr">|</p>
               <div className="hover:text-black  flex items-center gap-1">

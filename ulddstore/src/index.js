@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound';
 import AllProducts from './pages/AllProducts';
 import AddProducts from './pages/AddProducts';
 import ProductsDetail from './pages/ProductsDetail';
+import ProtectedRoute from './pages/ProtectedRoute';
 import MyCart from './pages/MyCart';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
