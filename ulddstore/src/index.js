@@ -22,9 +22,23 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: '/products', element: <AllProducts /> },
-      { path: '/products/add', element: <AddProducts /> },
+      {
+        path: '/products/add',
+        element: (
+          <ProtectedRoute requireAdmin>
+            <AddProducts />
+          </ProtectedRoute>
+        ),
+      },
       { path: '/products/:id', element: <ProductsDetail /> },
-      { path: '/carts', element: <MyCart /> },
+      {
+        path: '/carts',
+        element: (
+          <ProtectedRoute>
+            <MyCart />
+          </ProtectedRoute>
+        ),
+      },
     ],
   },
 ]);

@@ -26,14 +26,22 @@ export default function NavBar() {
         </Link>
 
         <div className="cursor-pointer flex items-center gap-3 text-sm">
-          <Link to="products/add" className="hover:text-black cursor-pointer flex items-center gap-1">
-            <BiPencil className="text-xl" />
-            상품추가
-          </Link>
-          <Link to="/carts" className="hover:text-black  flex items-center gap-1">
-            <BiCart className="text-xl" />
-            장바구니
-          </Link>
+          {/* 로그인 상태일 경우 장바구니 버튼 출력 */}
+          {user && (
+            <>
+              {/* 어드민 계정일 경우 상품추가 버튼 출력 */}
+              {user.isAdmin && (
+                <Link to="products/add" className="hover:text-black cursor-pointer flex items-center gap-1">
+                  <BiPencil className="text-xl" />
+                  상품추가
+                </Link>
+              )}
+              <Link to="/carts" className="hover:text-black  flex items-center gap-1">
+                <BiCart className="text-xl" />
+                장바구니
+              </Link>
+            </>
+          )}
 
           {/* 로그인 상태라면 (user State에 값이 들어있다면) 유저정보와 로그아웃버튼 */}
           {!user ? (
@@ -44,7 +52,7 @@ export default function NavBar() {
           ) : (
             <>
               <p className="pr">|</p>
-              <div onClick={login} className="hover:text-black  flex items-center gap-1">
+              <div className="hover:text-black  flex items-center gap-1">
                 <img alt="" src={user.photoURL} className="rounded-full w-6" />
                 <p>{user.displayName}님</p>
               </div>
