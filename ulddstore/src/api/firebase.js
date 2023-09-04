@@ -47,6 +47,16 @@ async function getAdmin(user) {
     });
 }
 
+export async function getProducts() {
+  return get(ref(database, 'products')) //
+    .then((snapshot) => {
+      if (snapshot.exists()) {
+        return Object.values(snapshot.val());
+      }
+      return [];
+    });
+}
+
 export function writeProducts(name, description, category, imageUrl, pid, options, price) {
   const db = getDatabase();
   set(ref(db, 'products'), {
