@@ -1,7 +1,8 @@
 // Firebase 초기화
 import { initializeApp } from 'firebase/app';
+import { v4 as uuid } from 'uuid';
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from 'firebase/auth';
-import { getDatabase, ref, get, child } from 'firebase/database';
+import { getDatabase, ref, get, set } from 'firebase/database';
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -44,4 +45,23 @@ async function getAdmin(user) {
       }
       return user;
     });
+}
+
+export function writeProducts(name, description, category, imageUrl, pid, options, price) {
+  const db = getDatabase();
+  set(ref(db, 'products'), {
+    [pid]: { name, description, category, imageUrl, options: options.split(''), price },
+  });
+}
+
+export async function addNewProduct(product, imageUrl) {
+  const id = uuid();
+  // products 중 고유 id에 제품 정보를 등록
+  return set(ref(database, `products/${id}`), {
+    ...product,
+    id,
+    price: parseInt(product.price),
+    image: imageUrl,
+    options: product.options.split(','),
+  });
 }
