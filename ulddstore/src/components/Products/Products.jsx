@@ -10,7 +10,7 @@ export default function Products() {
       {isLoading && <p>로딩 중..</p>}
       {error && <p>에러 발생!</p>}
 
-      <ul className="grid grid-cols-1 md:grid-cols-3 lg-grid-cols-4 gap-5 px-40 py-4">
+      <ul className="grid grid-cols-1 md:grid-cols-3 md:px-40 lg-grid-cols-4 gap-5 px-10 py-4">
         {products && products.map((product) => <ProductCard key={product.id} product={product}></ProductCard>)}
       </ul>
     </>
