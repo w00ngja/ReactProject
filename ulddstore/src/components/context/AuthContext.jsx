@@ -13,7 +13,7 @@ export function AuthContextProvider({ children }) {
     });
   }, []);
 
-  return <AuthContext.Provider value={{ user, login, logout }}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{ user, uid: user && user.uid, login, logout }}>{children}</AuthContext.Provider>;
 }
 
 // 전역 상태를 사용할 수 있는 커스텀 훅 Export
