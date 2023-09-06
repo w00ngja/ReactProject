@@ -1,12 +1,11 @@
 import React from 'react';
 import { AiOutlineMinusSquare, AiOutlinePlusSquare } from 'react-icons/ai';
 import { RiDeleteBin5Fill } from 'react-icons/ri';
-import { addOrUpdateToCart, removeFromCart } from '../../api/firebase';
-import { useAuthContext } from '../context/AuthContext';
+import useCart from '../../hooks/useCart';
 
 const ICON_STYLE = 'transition-all cursor-pointer hover:text-red-600 hover:scale-105';
 export default function CartItem({ product, product: { id, image, title, price, option, quantity } }) {
-  const { uid } = useAuthContext();
+  const { addOrUpdateItem, removeItem } = useCart();
 
   // 제품 수량 조절 콜백 (Minus, Plus, Remove)
   const handleMinus = () => {
@@ -14,11 +13,10 @@ export default function CartItem({ product, product: { id, image, title, price, 
     if (quantity < 2) return;
 
     // 수량이 1이 아닌 경우, 갖고 있는 수량에서 -1하여 DB 갱신
-    addOrUpdateToCart({ ...product, quantity: quantity - 1 }, uid);
+    addOrUpdateItem.mutate({ ...product, quantity: quantity - 1 });
   };
-  const handlePlus = () => addOrUpdateToCart({ ...product, quantity: quantity + 1 }, uid);
-
-  const handleDelete = () => removeFromCart(uid, id);
+  const handlePlus = () => addOrUpdateItem.mutate({ ...product, quantity: quantity + 1 });
+  const handleDelete = () => removeItem.mutate(id);
 
   return (
     <li className="flex justify-between my-2 items-center">

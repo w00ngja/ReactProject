@@ -1,10 +1,13 @@
-import { useQuery } from '@tanstack/react-query';
 import React from 'react';
-import { getProducts } from '../../api/firebase';
 import ProductCard from '../ProductCard/ProductCard';
+import useProducts from '../../hooks/useProducts';
 
 export default function Products() {
-  const { isLoading, error, data: products } = useQuery(['products'], getProducts);
+  // 리팩토링한 Query 커스텀훅을 통해 제품 정보를 가져옴
+  const {
+    productsQuery: { isLoading, error, data: products },
+  } = useProducts();
+
   return (
     <>
       {isLoading && <p>로딩 중..</p>}

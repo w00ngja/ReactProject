@@ -1,17 +1,16 @@
 import React from 'react';
-import { useAuthContext } from '../components/context/AuthContext';
-import { getCart } from '../api/firebase';
-import { useQuery } from '@tanstack/react-query';
 import CartItem from '../components/CartItem/CartItem';
 import PriceCard from '../components/PriceCard/PriceCard';
 import { BsFillPlusCircleFill } from 'react-icons/bs';
 import { FaEquals } from 'react-icons/fa';
+import useCart from '../hooks/useCart';
 
-const SHIPPING = 3000
+const SHIPPING = 3000;
 
 export default function MyCart() {
-  const { data: products, isLoading } = useQuery(['carts'], () => getCart(uid));
-  const { uid } = useAuthContext();
+  const {
+    cartQuery: { data: products, isLoading },
+  } = useCart();
 
   // 데이터 로딩 처리
   if (isLoading) return <p>loading...</p>;

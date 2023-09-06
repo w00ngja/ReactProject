@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAuthContext } from '../components/context/AuthContext';
-import { addOrUpdateToCart } from '../api/firebase';
+import useCart from '../hooks/useCart';
 
 export default function ProductsDetail() {
-  const { user, uid } = useAuthContext();
+  const { user } = useAuthContext();
 
   const {
     state: { product },
   } = useLocation();
   const { id, image, title, category, price, description, options } = product;
   const [selected, setSelected] = useState(options && options[0]);
+  const { addOrUpdateItem } = useCart();
 
   const handleChange = (e) => setSelected(e.target.value);
   const handleClick = () => {
@@ -19,7 +20,7 @@ export default function ProductsDetail() {
     // 로그인 되어있을 경우, 해당 유저의 장바구니 데이터베이스에 해당 제품을 넣어주면 됨
     if (user) {
       const product = { id, image, title, price, option: selected, quantity: 1 };
-      return addOrUpdateToCart(product, uid);
+      return addOrUpdateItem.mutate(product);
     } else return alert('제품을 장바구니에 담기 위해선 로그인이 필요합니다.');
   };
 
