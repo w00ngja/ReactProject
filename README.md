@@ -22,4 +22,4 @@
 3. <b>ulddstore (2023.09.02 ~ 2023.09.06)</b>
 
    - 드림코딩 리액트 쇼핑몰 프로젝트
-   - <a href='https://w00ngja.tistory.com/113'>프로젝트 회고</a>
+   - <a href='https://w00ngja.tistory.com/137'>프로젝트 회고</a>
