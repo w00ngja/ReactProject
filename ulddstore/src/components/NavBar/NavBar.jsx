@@ -52,6 +52,7 @@ export default function NavBar() {
               <div className="hover:text-black  flex items-center gap-1">
                 <img alt="" src={user.photoURL} className="rounded-full w-6" />
                 <p>{user.displayName}님</p>
+                {console.log(user)}
               </div>
               <div onClick={logout} className="hover:text-black  flex items-center gap-1">
                 <BiLogOut className="text-xl" />
